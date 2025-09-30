@@ -103,7 +103,7 @@ export default function Contact() {
           animate={{ opacity: 1 }}
           className="max-w-lg mx-auto p-8 bg-green-100 text-green-800 rounded shadow-lg text-center font-semibold text-xl"
         >
-          Thank you for your message! I'll get back to you soon.
+          Thank you for your message! I&apos;ll get back to you soon.
         </motion.div>
       )}
     </section>

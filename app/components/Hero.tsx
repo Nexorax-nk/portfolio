@@ -36,7 +36,7 @@ export default function Hero() {
         transition={{ duration: 0.7 }}
         className="text-5xl md:text-7xl font-extrabold mb-6 text-center max-w-4xl"
       >
-        Hi, I'm <span className="text-pink-400">[Your Name]</span>
+        Hi, I&apos;m <span className="text-pink-400">Naveen kumar</span>
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 30 }}
