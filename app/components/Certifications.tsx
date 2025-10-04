@@ -30,9 +30,9 @@ export default function Certifications() {
   return (
     <section id="certifications" className="w-full max-w-5xl mx-auto py-24 px-6">
       <h2 className="text-4xl md:text-5xl font-black text-center mb-12">
-        Licenses & {" "}
+        
         <span className="bg-gradient-to-r from-blue-500 to-teal-400 dark:from-blue-400 dark:to-teal-300 bg-clip-text text-transparent animate-gradient-x">
-          Certifications
+          Licenses & Certifications
         </span>
       </h2>
       <motion.div

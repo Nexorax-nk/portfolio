@@ -46,9 +46,8 @@ export default function Contact() {
       className="w-full max-w-3xl mx-auto py-24 px-6"
     >
       <h2 className="text-4xl md:text-5xl font-black text-center mb-12">
-        Get In{" "}
         <span className="bg-gradient-to-r from-blue-500 to-teal-400 dark:from-blue-400 dark:to-teal-300 bg-clip-text text-transparent animate-gradient-x">
-          Touch
+           Get In Touch
         </span>
       </h2>
 

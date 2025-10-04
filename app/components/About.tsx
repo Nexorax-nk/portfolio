@@ -52,9 +52,11 @@ export default function About() {
           variants={itemVariants}
           className="text-4xl md:text-5xl font-black mb-6"
         >
-          About {" "}
           <span className="bg-gradient-to-r from-blue-500 to-teal-400 dark:from-blue-400 dark:to-teal-300 bg-clip-text text-transparent animate-gradient-x">
-            Me
+            About {" "}
+            <span className="bg-gradient-to-r from-blue-500 to-teal-400 dark:from-blue-400 dark:to-teal-300 bg-clip-text text-transparent animate-gradient-x">
+              Me
+            </span>
           </span>
         </motion.h2>
 

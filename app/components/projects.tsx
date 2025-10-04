@@ -74,8 +74,11 @@ export default function Projects() {
       id="projects"
       className="min-h-screen container mx-auto px-6 py-16"
     >
-      <h2 className="text-4xl font-bold mb-10 text-center text-gray-900 dark:text-black">
-        My Projects
+      <h2 className="text-4xl md:text-5xl font-black text-center mb-12">
+        
+        <span className="bg-gradient-to-r from-blue-500 to-teal-400 dark:from-blue-400 dark:to-teal-300 bg-clip-text text-transparent animate-gradient-x">
+          My {" "} Projects
+        </span>
       </h2>
 
       <div className="flex justify-center mb-12 gap-4 flex-wrap">
@@ -85,9 +88,9 @@ export default function Projects() {
             onClick={() => setFilter(key)}
             className={`px-4 py-2 rounded-full font-semibold transition-colors ${
               filter === key
-                ? "bg-pink-600 text-white shadow-lg"
+                ? "bg-sky to-blue-200 text-white shadow-lg"
                 : "bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-300"
-            } hover:bg-pink-500 hover:text-white`}
+            } hover:bg-sky to-blue-200 hover:text-white`}
           >
             {label}
           </button>
@@ -113,7 +116,7 @@ export default function Projects() {
                   {tech.map((t) => (
                     <span
                       key={t}
-                      className="bg-pink-200 dark:bg-pink-700 text-pink-800 dark:text-pink-100 px-2 py-1 rounded-full text-xs font-semibold"
+                      className="bg-sky to-blue-300 text-sky-800 dark:text-blue-100 px-2 py-1 rounded-full text-xs font-semibold"
                     >
                       {t}
                     </span>
@@ -126,7 +129,7 @@ export default function Projects() {
                     href={demoUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-pink-600 hover:underline font-semibold"
+                    className="text-sky-600 hover:underline font-semibold"
                   >
                     Live Demo
                   </a>
@@ -136,7 +139,7 @@ export default function Projects() {
                     href={repoUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-pink-600 hover:underline font-semibold"
+                    className="text-sky-600 hover:underline font-semibold"
                   >
                     Source Code
                   </a>

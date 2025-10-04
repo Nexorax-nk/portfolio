@@ -19,8 +19,11 @@ export default function Skills() {
       id="skills"
       className="min-h-screen container mx-auto px-6 py-16"
     >
-      <h2 className="text-4xl font-bold mb-12 text-center text-gray-900 dark:text-black">
-        Skills & Tech Stack
+      <h2 className="text-4xl md:text-5xl font-black text-center mb-12">
+        
+        <span className="bg-gradient-to-r from-blue-500 to-teal-400 dark:from-blue-400 dark:to-teal-300 bg-clip-text text-transparent animate-gradient-x">
+          Skills & Tech Stacks
+        </span>
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -39,7 +42,7 @@ export default function Skills() {
                 initial={{ width: 0 }}
                 animate={{ width: `${level}%` }}
                 transition={{ duration: 1 }}
-                className="h-4 rounded-full bg-pink-600"
+                className="h-4 rounded-full bg-sky-300"
               />
             </div>
             <div className="mt-2 text-sm text-gray-700 dark:text-gray-300">
