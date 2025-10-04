@@ -64,7 +64,7 @@ export default function About() {
           variants={itemVariants}
           className="text-lg text-gray-600 dark:text-gray-400 mb-12"
         >
-          I'm a passionate full-stack developer with a love for building beautiful,
+           I&apos;m a passionate full-stack developer with a love for building beautiful,
           functional, and user-centric web applications. My journey in tech started
           with a curiosity for how things work, and it has evolved into a career
           where I get to solve complex problems and bring ideas to life with code.
