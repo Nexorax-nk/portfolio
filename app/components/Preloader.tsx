@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const words = ["Hello", "Bonjour", "你好", "Namaste"];
+const words = ["Hello", "Bonjour", "你好", "Namaste","Vanakam"];
 
 export default function Preloader() {
   const [index, setIndex] = useState(0);
