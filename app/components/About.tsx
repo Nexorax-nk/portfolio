@@ -89,10 +89,10 @@ export default function About() {
         <motion.div variants={itemVariants}>
             <h3 className="text-2xl font-bold mb-6 text-gray-800 dark:text-gray-200">Find Me On</h3>
             <div className="flex justify-center gap-6">
-                <motion.a href="https://github.com" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2, y: -5 }} aria-label="GitHub">
+                <motion.a href="https://github.com/Nexorax-nk" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2, y: -5 }} aria-label="GitHub">
                     <FaGithub className="text-4xl text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors" />
                 </motion.a>
-                <motion.a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2, y: -5 }} aria-label="LinkedIn">
+                <motion.a href="https://www.linkedin.com/in/naveen-kumar-g-072471cit/" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2, y: -5 }} aria-label="LinkedIn">
                     <FaLinkedin className="text-4xl text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-500 transition-colors" />
                 </motion.a>
                 <motion.a href="https://twitter.com" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.2, y: -5 }} aria-label="Twitter">

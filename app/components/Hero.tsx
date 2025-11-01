@@ -21,7 +21,7 @@ export default function Hero() {
       document.documentElement.classList.add("dark");
     }
   }, []);
-  
+
   // Effect to track mouse movement
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -34,7 +34,6 @@ export default function Hero() {
       window.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);
-
 
   const toggleDarkMode = () => {
     setDarkMode((prev) => {

@@ -9,13 +9,13 @@ const achievements = [
   {
     title: "WWT Hackathon Finalist",
     description: "Shortlisted to Round 2, competing against top talent in a nationwide event.",
-    link: "#", // Add link to proof if you have one
+    link: "https://drive.google.com/file/d/1ru5HQq14nobfY8DuKzJ7ARG56M5YKMns/view?usp=sharing", // Add link to proof if you have one
     Icon: FaHackerrank,
   },
   {
     title: "500+ DSA Problems Solved",
     description: "Demonstrated strong problem-solving skills on platforms like LeetCode and GeeksforGeeks.",
-    link: "#", // Add link to your LeetCode/GFG profile
+    link: "https://leetcode.com/u/Naveen_kumar_cit/", // Add link to your LeetCode/GFG profile
     Icon: FaCode,
   },
   // Add more achievements here

@@ -16,30 +16,28 @@ interface Project {
 const allProjects: Project[] = [
   {
     id: 1,
-    title: "Personal Blog Platform",
+    title: "FinCargo and FinOcean",
     description:
-      "Full-stack blog platform with Markdown support, comments, and SEO.",
-    tech: ["Next.js", "TailwindCSS", "Node.js", "MongoDB"],
-    demoUrl: "https://yourblogdemo.com",
-    repoUrl: "https://github.com/yourusername/blog",
+      "A Financial Dashboard that shows ,savings, debts, financial score, and recent transactions in one view.",
+    tech: ["HTML", "CSS", "FAST API", "JavaScript", "Python"],
+    repoUrl: "https://github.com/Nexorax-nk/Hackbattle.1",
     category: "fullstack",
   },
   {
     id: 2,
-    title: "Machine Learning Model Trainer",
-    description: "Python tool to train and deploy ML models quickly.",
-    tech: ["Python", "TensorFlow", "Docker"],
-    repoUrl: "https://github.com/yourusername/ml-trainer",
+    title: "Recommendation System for a Quick Service Restaurant (QSR)",
+    description: "Built a machine learning model to recommend food items based on customer preferences and order history.",
+    tech: ["Python", "LightGBM", "Pandas", "NumPy","Scikit-learn"],
+    repoUrl: "https://github.com/Nexorax-nk/recommendation-system",
     category: "ml",
   },
   {
     id: 3,
-    title: "E-commerce Frontend",
+    title: "Intractive Trading Dashboard",
     description:
-      "High-performance responsive e-commerce UI with cart & checkout.",
-    tech: ["React", "Redux", "TailwindCSS"],
-    demoUrl: "https://yourshopdemo.com",
-    repoUrl: "https://github.com/yourusername/shop-frontend",
+      "High-performance responsive Trading Dashboard with fetch real time prices of finacial market for every second",
+    tech: ["Next.js", "TailwindCSS", "FastAPI", "WebSockets", "Uvicorn"],
+    repoUrl: "https://github.com/Nexorax-nk/trading-dashboard",
     category: "frontend",
   },
   {
@@ -88,7 +86,7 @@ export default function Projects() {
             onClick={() => setFilter(key)}
             className={`px-4 py-2 rounded-full font-semibold transition-colors ${
               filter === key
-                ? "bg-sky to-blue-200 text-white shadow-lg"
+                ? "bg-gradient-to-r from-blue-500 to-teal-400 dark:from-blue-400 dark:to-teal-300"
                 : "bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-gray-300"
             } hover:bg-sky to-blue-200 hover:text-white`}
           >

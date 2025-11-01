@@ -3,22 +3,29 @@
 
 import { motion } from "framer-motion";
 import AchievementCard from "./AchievementCard";
-import { FaAws, FaGoogle } from 'react-icons/fa'; // Example icons
+import { FaAws, FaGoogle, FaIntercom } from 'react-icons/fa'; // Example icons
+import { DiCisco } from "react-icons/di";
+import { SiCisco } from "react-icons/si";
 
 const certifications = [
   {
-    title: "AWS Certified Cloud Practitioner",
+    title: "AWS Cloud Certification",
     description: "Validated foundational, high-level understanding of AWS Cloud, services, and terminology.",
     link: "#", // Add verification link
     Icon: FaAws,
   },
   {
-    title: "Google IT Support Professional",
-    description: "Developed skills in troubleshooting, customer service, networking, and security.",
+    title: "Internship @ Eduskills",
+    description: "Completed an internship at Eduskills in collaboration with Google for Developers, specializing in AIML and IoT on AWS.",
     link: "#", // Add verification link
-    Icon: FaGoogle,
+    Icon: FaIntercom,
   },
-  // Add more certifications here
+  {
+    title: "Cisco Certification",
+    description: "Validated knowledge of concepts and Cisco technologies.",
+    link: "#", // Add verification link
+    Icon: SiCisco,
+  }
 ];
 
 const containerVariants = {
